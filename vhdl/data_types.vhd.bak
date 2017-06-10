@@ -1,0 +1,8 @@
+-- Package declarationfor custom data types
+package data_types is
+
+    constant IMAGE_SIZE:	natural	:= 784;
+
+    type image_array is array(0 to IMAGE_SIZE-1) of integer;
+
+end package data_types;
